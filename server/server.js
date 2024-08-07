@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://smartcabsystem:Pass12345@cluster0.r3uivcf.mongod
 .catch(err => {
   console.error('Error connecting to MongoDB Atlas:', err);
 });
-r 
+ 
 const userSchema = new mongoose.Schema({
   username: String,
   password: String

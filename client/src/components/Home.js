@@ -50,11 +50,11 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transition">
             <p className="text-xl mb-4 font-['Roboto']">"Smart Cab System has made my daily commute so much easier. I can book a ride in seconds and track it in real-time. Highly recommend!"</p>
-            <p className="text-right font-semibold font-['Poppins']">- User Jane Doe</p>
+            <p className="text-right font-semibold font-['Poppins']">- Tharak Hegde</p>
           </div>
           <div className="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transition">
             <p className="text-xl mb-4 font-['Roboto']">"Being a driver with Smart Cab System has been a game-changer. I get to choose my own hours and earn more during peak times. The support team is also fantastic."</p>
-            <p className="text-right font-semibold font-['Poppins']">- Driver John Smith</p>
+            <p className="text-right font-semibold font-['Poppins']">-Hegde Tharak</p>
           </div>
         </div>
       </div>
