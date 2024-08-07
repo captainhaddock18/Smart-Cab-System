@@ -39,7 +39,7 @@ cd Smart-Cab-System
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser to access the Smart Cab System.
 
-## API Endpoints
+## Major API Endpoints
 
 ### Users
 - `POST /register` - Register a new user
