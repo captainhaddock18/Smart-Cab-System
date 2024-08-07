@@ -9,6 +9,10 @@ import Trips from './components/Trips';
 import CreateTrip from './components/CreateTrip';
 import Navbar from './components/Navbar';
 import HomePage from './components/Home';
+import DriverRegister from './components/DriverRegister';
+import DriverLogin from './components/DriverLogin';
+import DriverRides from './components/DriverRides';
+import AvailableTrips from './components/AvailableTrips';
 
 const App = () => (
   <BrowserRouter>
@@ -20,7 +24,10 @@ const App = () => (
           <Route path="/register" element={<Register />} />
           <Route path="/trips" element={<Trips />} />
           <Route path="/create-trip" element={<CreateTrip />} />
-
+          <Route path="/driver-register" element={<DriverRegister />} />
+          <Route path="/driver-login" element={<DriverLogin />} />
+          <Route path="/driver-rides" element={<DriverRides />} />
+          <Route path="/available-trips" element={<AvailableTrips />} />
     </Routes>
     {/* </div> */}
   </BrowserRouter>
